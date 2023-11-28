@@ -4,93 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <script src="script.js"></script>
+    <meta name="author" content="Simon Baumhauer" />
+    <link rel="stylesheet" href="style.css" />
+
     <title>Chess</title>
   </head>
+
   <body>
-    <h1>Chess</h1>
-    <ul>
-      <div class="row" id="row8">
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-      </div>
-      <div class="row" id="row7">
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-      </div>
-      <div class="row" id="row6">
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-      </div>
-      <div class="row" id="row5">
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-      </div>
-      <div class="row" id="row4">
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-      </div>
-      <div class="row" id="row3">
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-      </div>
-      <div class="row" id="row2">
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-      </div>
-      <div class="row" id="row1">
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-        <li class="box"></li>
-      </div>
-    </ul>
+  <div id="gameboard"></div>
+  <p>It is <spa id="player"></spa> go.</p>
+  <p id="info-display"></p>
   </body>
+  <script src="pieces.js"></script>
+  <script src="script.js"></script>
 </html>
